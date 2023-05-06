@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+
+
+.logo {
+    font-family: 'Comme', sans-serif;
+    letter-spacing: -1.5px;
+}
+
+html,
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.infinitescroll-title {
+    font-size: 22px;
+    letter-spacing: -0.6px;
+}
+
+@media only screen and (max-width: 768px) {
+    .infinitescroll-title {
+        font-size: 15px;
+        letter-spacing: -0.0px;
+    }
+
+    .infinitescroll-author,
+    .infinitescroll-date {
+        font-size: 0.8125rem;
+    }
+}
